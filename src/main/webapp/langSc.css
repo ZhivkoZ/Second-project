@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+ box-sizing: border-box;
+}
+
+body {
+    background-color: #bdedf2;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-container {
+    background-color: #80ffff;
+    padding: 100px;
+    display: flex;
+}
+
+.main-item {
+    background-color: rgb(61, 155, 61);
+    padding: 5px;
+    flex: 1; 
+    border-radius: 5px;
+    border: 1px solid #2c802c;
+    color: #80ffff;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+
+.main-item:hover {
+    background-color: #80ffff;
+}
+
+.main-item + .main-item {
+    margin-left: 45px;
+}
+
+.main-item .main-img {
+    width: 100%;
+}
+
+.main-item .main-heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+.main-item .main-description {
+    font-size: 18px;
+}
+
+#slogan {
+	text-align: center;
+	font-size: 18px;
+    font-weight: bold;
+}
+
+#home #cards {
+	text-align: left;
+}
+
+#cards {
+	text-align: center;
+}
+
+#search-box {
+	padding: 3px;
+}
+
+#search-column input[type=text] {
+  float: center;
+  padding: 6px;
+  border: 1px solid black;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  outline-style: solid;
+}
+
+#courses-card {
+	background: src="Images/thinkstockphotos";
+}
